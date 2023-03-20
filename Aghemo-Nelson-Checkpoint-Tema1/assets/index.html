@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <h1><span id="titulo">Tsuki</span> Food</h1>
+      <div id="divanchors">
+        <a id="home" href="./index.html">Home</a>
+        <a class="anchornav" href="#">About</a>
+        <a class="anchornav" href="#">Menu</a>
+        <a class="anchornav" href="#">Delivery</a>
+      </div>
+    </nav>
+    <div id="first-column">
+      <img id="first-column-img" src="./images/image-1.jpg" alt="image-1" />
+      <div id="first-column-content">
+        <h2>The Service Offering</h2>
+        <ul>
+          <li>Fast Service</li>
+          <li>Good Quality ingredients</li>
+          <li>20% discount every Sunday</li>
+          <li>Deliveries always take less than 1hour</li>
+        </ul>
+      </div>
+    </div>
+    <section id="second-column">
+      <h3>Featured Menu</h3>
+      <div id="divimgs">
+        <div class="imgcolumn2">
+          <img class="imgcolumn2-img" src="./images/gyoza.jpg" alt="Gyoza" />
+          <p>Gyoza</p>
+        </div>
+        <div class="imgcolumn2">
+          <img class="imgcolumn2-img" src="./images/ramen.jpg" alt="Ramen" />
+          <p>Gyoza</p>
+        </div>
+        <div class="imgcolumn2">
+          <img class="imgcolumn2-img" src="./images/sushi.jpg" alt="Sushi" />
+          <p>Sushi</p>
+        </div>
+      </div>
+    </section>
+    <section id="third-column">
+      <h3 id="third-columnh3">Prices in our Featured Menu</h3>
+      <div id="divthirdcolumn">
+        <img
+          id="third-column-img"
+          src="./images/asian-food.jpg"
+          alt="asian-food"
+        />
+        <table>
+          <tr>
+            <th>Food</th>
+            <th>Price</th>
+            <th>Vegan options</th>
+          </tr>
+          <tr>
+            <td>Gyoza</td>
+            <td>120 USD</td>
+            <td>All No</td>
+          </tr>
+          <tr>
+            <td>sushi</td>
+            <td>150 USD</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td>Ramen</td>
+            <td>200 USD</td>
+            <td>Yes</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    <footer>
+      <h4>MindHub <span id="spanh4">Cohort FS046</span></h4>
+
+      <form action="./pages/show_data.html" method="get">
+        <fieldset>
+          <legend>Have you ate here?</legend>
+          <label for="method1">yes</label>
+          <input type="radio" name="option" id="method1" value="yes" />
+          <label for="method2">no</label>
+          <input type="radio" name="option" id="method2" value="no" />
+          <br />
+          <label for="name">Subscribe</label>
+          <input type="text" id="name" name="Subscribe" />
+          <button type="submit">Send</button>
+        </fieldset>
+      </form>
+
+      <a id="mail" href="mailto:tsukifood@mh.com">tsukifood@mh.com</a>
+    </footer>
+  </body>
+</html>
